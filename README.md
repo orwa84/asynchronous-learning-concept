@@ -1,4 +1,4 @@
-# Proposal and Description of an Asynchronous Prep Course
+# Prep Course Recommendation
 
 This is a recommendation of what I believe, as an instructor, to be the right topics for an asynchronous prep course for _Wild Code School_ and other sister bootcamp schools in the parent group
 

@@ -1,61 +1,65 @@
-# Proposal and Description of a New Type of an Asynchronous Learning System
+# Proposal and Description of an Asynchronous Prep Course
 
-This is a description of an _asynchronous learning architecture and a product_ that I am proposing to lead the development of (and own shares in) at _Wild Code School_ and/or in its parent group.
+This is a recommendation of what I believe, as an instructor, to be the right topics for an asynchronous prep course for _Wild Code School_ and other sister bootcamp schools in the parent group
 
-## Scope
+## 1 The Problem
 
-This document describes a _conceptual asynchronous learning system_ that will be greatly benefecial internally and to other bootcamp schools, when sold as a service to be used alongside the bootcamp's school offerings.
+Before anything else, it is important to understand the problem that a _prep course_ attempts to solve in a technology bootcamp.
 
-This system will also be ideal for bootcamp preparation, corporate training and skill validation (i.e. certification, job placement, etc.).
+In adult classrooms and technology bootcamps, people gather from different cultural, educational, and personal backgrounds to learn engaged topics that the academic educational system takes a much longer period of time to teach (on the order of 6-20 times as much). 
 
-In a nutshell, a system built in this manner will be incredibly useful and a game changer in education.
+Often, the problem of _differentiation in the classroom_ is multipled in this demanding environment. This is due to the broad age range of students and the many ways in which some students may gain an _innate advantage_ over others in the area of learning a logical language.
 
-## The Problem
+### 1.1 Logical languages
 
-In adult classrooms and technology bootcamps, people gather from different cultural, educational, and personal backgrounds to learn engaged topics that the academic educational system takes much longer to teach to students (on the order of 6-20 times as much). 
+In a _logical language_ like Javascript, different symbols and character sequences, such as `[` and `??`, have a precise, real and an undisputable meaning. For example, not only that a space between the two question marks above would imply something completely different than what it would otherwise, it would also turn it into "broken speech", or in _logical-language terms_, would lead to a _syntax error_.
 
-Often, the problem of _differentiation in the classroom_ is multipled in this demanding environment. This is due to the broad age range and the many ways in which some students may gain an _innate advantage_ over others in the area of learning a logical language.
+In the world of logical languages, the "receiver" of the logical language cannot recover from a _syntax error_ and hence must reject the speech entirely. This is due to the way in which logical languages are designed, which is, to be as accurate and as unambiguous as possible! (think what would happen if the receiver was allowed to rectify the logical message at its own discretion, then ambiguity might arise, which counters the objective of such a language, implying that devices might behave erratically)
 
-### Logical languages
-
-In a _logical language_ like Javascript, different symbols and character sequences, such as `[` and `??`, have a precise, real and an undisputable meaning. For example, not only that a space between the two question marks would imply something different than it would otherwise, it would also be considered "broken speech", or in logical-language terms, lead to a _syntax error_.
-
-In the world of logical languages, the "receiver" of a logical language cannot recover from a _syntax error_ and hence must reject the speech entirely. This is due to the way in which logical languages were designed, which is, to be as accurate and as unambiguous as possible!
-
-### Natural languages
+### 1.2 Natural languages
 
 On the other hand, the "meaning" in natural languages is constantly evolved and negotiated between two entitites who are constantly trying to guess and predict what the other entity is actually referring to in the real world.
 
-In this realm, communication can continue to occur even when it is actually broken, namely, even when the two entities' prediction of what the other entity is referring to, is in fact, far off from what is intended 😅 (something that we all experienced at one point or another in our lives!). 
+In this realm, communication can continue to occur even when it is actually broken, namely, even when the two entities' prediction of what the other entity is referring to, is in fact, far off from what is intended 😅 (something that we all experienced at one point or another when communicating with other people!). 
 
-### The logical (dis)advantage
+### 1.3 The logical disadvantage
 
-The main way in which, arguably, the biggest _differentiation gap_ is created in technology bootcamps is in students' apptitude for manufacturing, and consuming, logical languages.
+The main way in which, arguably, the biggest _differentiation gap_ is created in technology bootcamps is in the students' apptitude for manufacturing and consuming logical languages.
 
-For example, social workers, housewives, communication professionals and many others, might need considerably more preparation, even to begin learning something like Javascript.
+For example, social workers, housewives, communication professionals and many others, might need considerably more preparation, ***even before dreaming to begin learning something like Javascript!***
 
 Namely, this category of people might have to go through a lot of ["visual"](https://en.wikipedia.org/wiki/Visual_word_form_area) training just to be able to:
 
 - Discern the presence of spaces around words and operators[^1]
 - Discern the difference between punctuation marks that are otherwise similar, or do not have a special meaning in the writing systems of most natural languages[^2]
-- The inability or the great effort required to match openers with closers (i.e. brackets and other symmetrical pairs of characters), and/or the level of difficulty involved in discerning the _hierarchy and structure_ of logical speech[^3]
-- Failing to discern the hierarchy and structure of a logical expression (from the previous point) can also make it very challenging for individuals in this category to look at a relatively-simple, but a _domain-specific_ logical language, such as _mermaid_ (a logical language for creating diagrams) and draw a _correspondence_ between the mermaid description of the state diagram, and the state diagram itself, even when laid right next to each other.
-- The inability or the great effort required to discern the embeddings of one logical language into another[^4]
+- Match openers with closers (i.e. brackets and other symmetrical pairs of glyphs), and/or discern the _hierarchy and structure_ of logical speech[^3]
+- Draw a _correspondence_ between a _domain-specific_ language, such as diagram description and the diagram itself, even when laid right next to each other, or finding such a task to be incredibly challenging
+- Discern the embeddings of one logical language into another[^4]
+- Predict the overall function of a program even when the function of the individual lines is understood[^5]
 
 [^1]: For example, the inability to naturally distinguish between the presence and the lack of spaces before commas in writing, and the inability to be consistent with the preservation or the elimination of such spaces, is a common observation amongst this category of people.
 [^2]: For example, confusing parantheses `(` with square brackets `[` and/or using them interchangeably in a Javascript program, and being surprised to learn the completely different meaning these have in Javascript, both fall in the same category. Also, continuing to encounter difficulty using the right type of bracket, even being briefed on the difference, which indicates that a layer of visual training might be missing in this category of people.
 [^3]: For example, failing to discern the end of a statement and the beginning of another in Javascript. Also, finding difficulty identifying the point in the code where stuff inside of a function should go, or the point in the code where the _condition part_ of an `if` statement should be placed.
 [^4]: For example, the embedding of JSX inside of Javascript, and the consequential "switch" in grammer rules resulting from such  an embedding. This becomes even more challenging, as the JSX notation provides its own way of "switching back" to the Javascript context, right from within of the JSX context itself 🤯. It is my theory, that since natural languages offer only two levels of embedding at best, that our brains are not naturally skilled at keeping track of these many levels of embeddings without special training. Hence it makes sense why people coming from natural languages might find it very difficult to wrap their heads around these, convoluted logical statements.
+[^5]: I am still not sure as to why this happens. My guess is that the natural learner tends to try to collectively make sense of the all sentences in the program without taking into account the sequential execution and the temporal relationship between the different statements.
 
-> This is pretty interesting, especially when compared to seasoned lawyers, whose entire career is focused on eliminating as much ambiguity from natural speech as possible, for the purpose of protecting and defending the interest of companies and individuals under the loose and vague interpretative climate of natural languages.
->
-> Indeed, it is the case that these professionals are often delighted to encounter such a logical language in a technology bootcamp, and tend to absorb its working principles like a dry sponge that has been dropped in water as soon as they get the chance to
+### 1.4 The logical advantage 
 
-### The differentiation problem
+Compared to the previous category of people, lawyers, mathematicians and philosphers might have a much easier time adapting to the realm of logical languages.
 
-By now, I hope that the _innate advantage gained by some students over others in technology bootcamps_, which is the root of the differentation problem, is evident.
+In the case of lawyers, whose entire career is focused on eliminating as much ambiguity from natural speech as possible (for the purpose of protecting and defending their clients' interest under the loose and vague interpretative climate of natural languages), logical languages might seem like the one thing they have been seeking their entire lives.
 
-Note that in addition to this innate advantage, an additional advantage is also gained by having prior exposure to the content of the technology bootcamp. However, it is my belief that this type of advantahe is less severe, otherwise, everyone could have learnt this stuff just by doing online courses, and then a bootcamp would not be needed in the first place.
+Indeed, it is the case that these professionals are often adept to comprehending the rules of logical languages and tend to absorb its working principles like a dry sponge that fell into water
+
+### 1.5 Prior exposure to content
+
+In addition to the innate advantage some students may have over others, an additional advantage may also be gained by having prior exposure to the content of the technology bootcamp (e.g. the keywords, syntax rules and terminology of the technologies being taught at the bootcamp). 
+
+Indeed, _this is the area where most prep courses will try to operate,_ thinking that this is what a bootcamp participant needs to know prior to the bootcamp to alleviate their suffering and reduce the _differentiation problem_ in the classroom, I strongly disagree.
+
+In fact, if it was not for the profound difficulties of section (1.3), a lot of those who seek learning in bootcamps would be able to upskill themselves more easily and cheaply using online courses that provide all the keywords, syntax and jargon knowledge required.
+
+### 1.6 The differentiation problem
 
 ```mermaid
 journey
@@ -72,31 +76,34 @@ journey
 
 ### Conclusion
 
-> _In summary, if it was not for the intense differentiation challenge present in technology bootcamps, the creative synchronous learning methods seen in these bootcamps with their social, technological, and methodological aspects remain key to preparing bootcampers for the job market. Hence, it is my opinion that an **asynchronous support platform** is likely only needed to eliviate the innate (dis)advantage some students begin with in this rich, collaborative, and human-centered synchronous learning environment, which creates a lot of friction and often is the pricipal degrader of the bootcamper's user experience._
+_In summary, unlike popular belief, it is not students' lack of hard skills that determines their user experience in technology bootcamps, rather, it is, more often than not, their disadvantage with regard to their adeptness at learning a logical language._
+ 
+Hence, an asynchronous prep course that focuses on addressing this particular disavantage is likely to be of **incredible value** to _Wild Code School_ and its sister schools, by increasing its reach and offering a better and a smoother bootcamp experience.
 
-## Existing Solutions
+## Format
 
-Any platform or learning system that allows individual students to effectively work on their "missing skills" or "competences" which prevent them from catching up to the speed of the bootcamp can be seen as a solution to the innate differentiation problem.
+Platforms or learning systems that allow individual students to effectively work on their "missing skills" or "competences" on their free time prior to the beginning of the bootcamp are called "asynchronou", and are ideal for the purpose of preparing the students for the bootcamp's synchronous experience.
 
-These platforms fall into many categories of asynchronous (offline, on-demand) content:
+The following asynchronous formats are common:
 1. Video tutorials (YouTube)
 2. Project-based, paid online courses (Udemy, Coursera, etc.)
 3. Interactive challenges ([CodeWars](https://www.codewars.com/kata/latest/my-languages?beta=false), HackerRank, etc.)
 4. Coding games ([Oh My Git!](https://ohmygit.org/), [VIM Adventures](https://vim-adventures.com/))
 5. Learning scenarios ([OREILLY](https://www.oreilly.com/work-with-us/build-interactive-learning.html), previously [Katacoda](https://www.katacoda.com/))
 
-### The Problem with these Solutions
+Due to the rudimentary nature of the challenges in section 1.3, it is likely that interactive challenges (e.g. interactive quizzes, Kahoots, etc.) and gamified experiences will be the most effective.
 
-Almost all of these solutions are based on the idea of a _pre-prepared puzzle_, some of which are excellently designed, however, the knowledge about what the learner already knows and doesn't know is often _built into_ the design of the puzzle.
+### Ideas
 
-For example, an online Javascript course might be designed for the _absolute beginner_ (regardless of what that really means), and another one would attempt to help people transition from a programming language called _Swift_ to learning Javascript.
-
-Unfortunately, the choice of whether to buy a course titled "Javascript for the absolute beginner" or another one called "Javascript for the intermediate" is often an exercise in self-belief, for most people, rather than anything else. More often than not, the course will turn out to be either "too challenging" or require a lot of perseverence to get over "the boring parts"... Never exactly the right balance for our needs!
-
-_In either case, these asynchronous solutions have the knowledge about what the learner knows and does not know baked into them, which is the main challenge in creating the next-genertion AI explainer and teacher systems we deperately need today to upskill the population._
-
-In the next section, I try to describe a system that overcomes this using machine learning.
-
-## Approach
-
-## Mock example
+1. Interactive game: Match pairs of brackets
+2. Interactive game: Nested code blocks
+3. Interactive game: Using a custom programming language that uses single glyphs to move a character on the screen
+4. Interactive game: Combine logical functions to solve a mystery
+5. Interactive game: Visual programming using Blockey, translate to Javascript
+6. Interactive game: Read interpreter errors, find the line where the error happened
+7. Interactive game: Use wiggly lines under text in vscode to find syntax errors
+8. Kahoots: Match a diagram language with a diagram to understand how the language works
+9. Learning scenario: Learn regular expressions
+10. Challenges: Use regular expressions to select parts of a text
+11. Visual programming challenges
+12. etc.

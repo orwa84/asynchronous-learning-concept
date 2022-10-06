@@ -12,17 +12,17 @@ Often, the problem of _differentiation in the classroom_ is multipled in this de
 
 ### [1.1] Logical languages
 
-In a _logical language_ like Javascript, different symbols and character sequences, such as `[` and `??`, have a precise, real and an undisputable meaning. For example, not only that a space between the two question marks above would imply something completely different than what it would otherwise, it would also turn it into "broken speech", or in _logical-language terms_, this would lead to a _syntax error_.
+In a _logical language_ like Javascript, different symbols and character sequences, such as `[` and `??`, have a precise and an undisputable meaning. For example, not only that adding a space between the two question marks above would imply something completely different than what it would otherwise, it would also turn it into "broken speech", or in logical-language terms, lead to a _syntax error_.
 
 In the world of logical languages, the "receiver" of the logical language cannot recover from a _syntax error_ and hence must reject the speech entirely. This is due to the way in which logical languages are designed, which is, to be as accurate and as unambiguous as possible![^6]
 
-[^6]: Think about what would happen if the receiver of a logical language was allowed to rectify the logical message at its own discretion when it does not make sense, then ambiguity might arise, which counters the original objective of such a language. If such a language was used to control a machine, this this implies that the machine might behave unpredictably.
+[^6]: Think about what would happen if the receiver of a logical language was allowed to rectify the logical message at its own discretion when it does not make sense, then ambiguity might arise, which counters the original objective of such a language. If such a language was used to control a machine, then this implies that the machine might behave unpredictably.
 
 ### [1.2] Natural languages
 
-On the other hand, the "meaning" in natural languages is constantly evolved and negotiated between two entitites who are constantly trying to guess and predict what the other entity is actually referring to in the real world.
+On the other hand, the "meaning" in natural languages is constantly evolved and negotiated between two entitites (people, usually) who are constantly trying to guess/predict what the other entity is actually referring to in the real world.
 
-In this realm, communication can continue to occur even when it is actually broken, namely, even when the two entities' prediction of what the other entity is referring to, is in fact, far off from what is intended 😅 (something that we all experienced at one point or another when communicating with other people!). 
+In this realm, communication can continue to occur even when it is actually broken, namely, even when the two entities' prediction of what the other is referring to is far off from what is intended 😅 (something that we all experienced at one point or another when communicating with another human!). 
 
 ### [1.3] The logical disadvantage
 
@@ -84,9 +84,9 @@ Hence, an asynchronous prep course that focuses on addressing this particular di
 
 ## [2] Format
 
-Platforms or learning systems that allow individual students to effectively work on their "missing skills" or "competences" on their free time prior to the beginning of the bootcamp are called "asynchronou", and are ideal for the purpose of preparing the students for the bootcamp's synchronous experience.
+Platforms or learning systems that allow individual students to effectively work on their "missing skills" or "competences" on their free time prior to the beginning of the bootcamp are called "asynchronous", and are ideal for the purpose of preparing the students for the bootcamp's synchronous experience.
 
-The following asynchronous formats are common:
+The following asynchronous formats are common nowadays:
 1. Video tutorials (YouTube)
 2. Project-based, paid online courses (Udemy, Coursera, etc.)
 3. Interactive challenges ([CodeWars](https://www.codewars.com/kata/latest/my-languages?beta=false), HackerRank, etc.)
@@ -95,10 +95,10 @@ The following asynchronous formats are common:
 
 Due to the rudimentary nature of the challenges in section 1.3, it is likely that interactive challenges (e.g. interactive quizzes, Kahoots, etc.) and gamified experiences will be the most effective.
 
-### [2.1] Ideas for Bridging the Logical-Language Disadvantage
+### [2.1] Ideas for Prep-Course Content
 
-1. Interactive game: Find misplaces spaces as quickly as possible
-1. Interactive game: Match pairs of brackets
+1. Interactive game: Find misplaced spaces as quickly as possible (e.g. before punctuation in writing)
+1. Interactive game: Match pairs of brackets, identify mismatched pairs (e.g. `[....)`)
 2. Interactive game: Identify nested code blocks
 3. Interactive game: Use a custom programming language that uses single glyphs to move a character on the screen, increasing levels of difficulty to ensure the learner understands the "semantic" value associated with glyphs
 4. Interactive game: Combine logical functions to solve a mystery (using AND, OR, XOR and NOT)

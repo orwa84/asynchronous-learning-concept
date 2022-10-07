@@ -105,11 +105,12 @@ Due to the rudimentary nature of the challenges in section 1.3, it is likely tha
 5. Interactive game: Visual programming using Blockey, translate to Javascript, understand the relationship between the lines/blocks and the collective function of the program as a whole
 6. Interactive game: Read interpreter errors, find the line where the error happened (seems silly, but incredibly difficult for some to learn how to read intepreter messages)
 7. Interactive game: Use wiggly lines under text in vscode to find syntax errors. Learn how to see those and follow their lead.
-8. Kahoots: Match a diagram language with a diagram to understand how the domain-specific language works
-9. Learning scenario: Learn markdown, use markdown to write about yourself
-9. Learning scenario: Learn regular expressions
-10. Challenges: Use regular expressions to select parts of a text
-11. Visual programming challenges
-12. Interactive game: Fix settings in JSON/YAML
-12. etc.
+8. Interactive game: Character jumps into the right XML/HTML tag in a structural document as quickly as possible (trains the user to discern structure) 
+9. Kahoots: Match a diagram language with a diagram to understand how the domain-specific language works
+10. Learning scenario: Learn markdown, use markdown to write about yourself
+11. Learning scenario: Learn regular expressions
+12. Challenges: Use regular expressions to select parts of a text
+13. Visual programming challenges
+14. Interactive game: Fix settings in JSON/YAML
+15. etc.
 
